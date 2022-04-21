@@ -1,0 +1,33 @@
+{
+  "name": "async-handler",
+  "version": "1.0.0",
+  "description": "learner project: express-async-handler package implementation",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coduori/express-async-handler.git"
+  },
+  "keywords": [
+    "async-handler"
+  ],
+  "author": "Oduori Oranga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coduori/express-async-handler/issues"
+  },
+  "homepage": "https://github.com/coduori/express-async-handler#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
